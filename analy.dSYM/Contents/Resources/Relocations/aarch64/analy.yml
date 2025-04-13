@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/leejeongmin/project_flie/whitehat/problem/analy'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _json_get_value, symObjAddr: 0x0, symBinAddr: 0x100000A6C, symSize: 0x338 }
+  - { offsetInCU: 0x71, offset: 0x71, size: 0x8, addend: 0x0, symName: _undefined_json, symObjAddr: 0x33E8, symBinAddr: 0x100003F68, symSize: 0x0 }
+  - { offsetInCU: 0x1A5, offset: 0x1A5, size: 0x8, addend: 0x0, symName: _json_get_value, symObjAddr: 0x0, symBinAddr: 0x100000A6C, symSize: 0x338 }
+  - { offsetInCU: 0x215, offset: 0x215, size: 0x8, addend: 0x0, symName: _json_type_to_string, symObjAddr: 0x338, symBinAddr: 0x100000DA4, symSize: 0x16C }
+  - { offsetInCU: 0x23F, offset: 0x23F, size: 0x8, addend: 0x0, symName: _json_stacktrace_get_stack, symObjAddr: 0x4A4, symBinAddr: 0x100000F10, symSize: 0x38 }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _json_stacktrace_push, symObjAddr: 0x4DC, symBinAddr: 0x100000F48, symSize: 0x78 }
+  - { offsetInCU: 0x2AE, offset: 0x2AE, size: 0x8, addend: 0x0, symName: _json_get_from_json_value, symObjAddr: 0x554, symBinAddr: 0x100000FC0, symSize: 0xD0 }
+  - { offsetInCU: 0x2E4, offset: 0x2E4, size: 0x8, addend: 0x0, symName: _json_stacktrace_print, symObjAddr: 0x624, symBinAddr: 0x100001090, symSize: 0x418 }
+  - { offsetInCU: 0x336, offset: 0x336, size: 0x8, addend: 0x0, symName: _json_get_from_object, symObjAddr: 0xA3C, symBinAddr: 0x1000014A8, symSize: 0x1C8 }
+  - { offsetInCU: 0x388, offset: 0x388, size: 0x8, addend: 0x0, symName: _json_get_from_array, symObjAddr: 0xC04, symBinAddr: 0x100001670, symSize: 0xB0 }
+  - { offsetInCU: 0x3BE, offset: 0x3BE, size: 0x8, addend: 0x0, symName: _json_len, symObjAddr: 0xCB4, symBinAddr: 0x100001720, symSize: 0x30 }
+  - { offsetInCU: 0x3E6, offset: 0x3E6, size: 0x8, addend: 0x0, symName: _json_get_last_index, symObjAddr: 0xCE4, symBinAddr: 0x100001750, symSize: 0x90 }
+  - { offsetInCU: 0x40E, offset: 0x40E, size: 0x8, addend: 0x0, symName: _json_string_to_value, symObjAddr: 0xD74, symBinAddr: 0x1000017E0, symSize: 0x880 }
+  - { offsetInCU: 0x54C, offset: 0x54C, size: 0x8, addend: 0x0, symName: _json_create_object, symObjAddr: 0x1744, symBinAddr: 0x1000021B0, symSize: 0x328 }
+  - { offsetInCU: 0x5D0, offset: 0x5D0, size: 0x8, addend: 0x0, symName: _json_create_array, symObjAddr: 0x1A6C, symBinAddr: 0x1000024D8, symSize: 0x278 }
+  - { offsetInCU: 0x627, offset: 0x627, size: 0x8, addend: 0x0, symName: _json_create, symObjAddr: 0x1CE4, symBinAddr: 0x100002750, symSize: 0x38 }
+  - { offsetInCU: 0x651, offset: 0x651, size: 0x8, addend: 0x0, symName: _json_to_longlongint, symObjAddr: 0x1D1C, symBinAddr: 0x100002788, symSize: 0xC4 }
+  - { offsetInCU: 0x67B, offset: 0x67B, size: 0x8, addend: 0x0, symName: _json_to_double, symObjAddr: 0x1DE0, symBinAddr: 0x10000284C, symSize: 0xCC }
+  - { offsetInCU: 0x6A5, offset: 0x6A5, size: 0x8, addend: 0x0, symName: _json_to_bool, symObjAddr: 0x1EAC, symBinAddr: 0x100002918, symSize: 0x80 }
+  - { offsetInCU: 0x6CF, offset: 0x6CF, size: 0x8, addend: 0x0, symName: _json_to_string, symObjAddr: 0x1F2C, symBinAddr: 0x100002998, symSize: 0x64 }
+  - { offsetInCU: 0x6F9, offset: 0x6F9, size: 0x8, addend: 0x0, symName: _json_is_null, symObjAddr: 0x1F90, symBinAddr: 0x1000029FC, symSize: 0x24 }
+  - { offsetInCU: 0x723, offset: 0x723, size: 0x8, addend: 0x0, symName: _json_get_type, symObjAddr: 0x1FB4, symBinAddr: 0x100002A20, symSize: 0x18 }
+  - { offsetInCU: 0x74D, offset: 0x74D, size: 0x8, addend: 0x0, symName: _json_fprint_value, symObjAddr: 0x1FCC, symBinAddr: 0x100002A38, symSize: 0x1B0 }
+  - { offsetInCU: 0x791, offset: 0x791, size: 0x8, addend: 0x0, symName: _json_fprint_array, symObjAddr: 0x217C, symBinAddr: 0x100002BE8, symSize: 0xD0 }
+  - { offsetInCU: 0x7F2, offset: 0x7F2, size: 0x8, addend: 0x0, symName: _json_fprint_object, symObjAddr: 0x224C, symBinAddr: 0x100002CB8, symSize: 0x1A8 }
+  - { offsetInCU: 0x88D, offset: 0x88D, size: 0x8, addend: 0x0, symName: _json_free, symObjAddr: 0x23F4, symBinAddr: 0x100002E60, symSize: 0xBC }
+  - { offsetInCU: 0x8C2, offset: 0x8C2, size: 0x8, addend: 0x0, symName: _json_free_array, symObjAddr: 0x24B0, symBinAddr: 0x100002F1C, symSize: 0x94 }
+  - { offsetInCU: 0x905, offset: 0x905, size: 0x8, addend: 0x0, symName: _json_free_object, symObjAddr: 0x2544, symBinAddr: 0x100002FB0, symSize: 0xA8 }
+  - { offsetInCU: 0x948, offset: 0x948, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x25EC, symBinAddr: 0x100003058, symSize: 0x758 }
+...
